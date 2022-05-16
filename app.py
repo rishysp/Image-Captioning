@@ -24,8 +24,6 @@ vocab = vocab.item()
 inv_vocab = {v:k for k,v in vocab.items()}
 resnet = ResNet50(include_top = False,  weights = 'imagenet',input_shape = (224,224,3), pooling = 'avg')
 
-print("*"*50)
-print("resnet loaded")
 
 embedding_size = 128
 max_len = 40
@@ -63,9 +61,7 @@ def index():
 @app.route('/after',methods = ['GET','POST'])
 def after():
     global model,vocab,inv_vocab
-    
-    print("*"*50)
-    print("model loaded")
+
     
     file = request.files['file1']
     file.save('static/file.jpg')
