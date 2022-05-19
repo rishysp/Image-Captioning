@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src=https://user-images.githubusercontent.com/72292326/162111031-b8da3bd1-2e39-4bab-9c2d-a37c25214abf.png />
+<img src=https://github.com/rishysp/Image-Captioning/blob/main/architecture.png />
 
 Image Captioning is the process of generating textual description of an image. It uses both Natural Language Processing and Computer Vision to generate the captions.
 
