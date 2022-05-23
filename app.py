@@ -1,4 +1,3 @@
-from typing import final
 from flask import Flask,render_template,request
 import cv2
 from keras.applications.resnet import ResNet50
